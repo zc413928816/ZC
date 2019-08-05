@@ -1,2 +1,2 @@
-# ZC
-第一资测试使用
+#include <reg51.h>
+#define uchar unsaigned char
