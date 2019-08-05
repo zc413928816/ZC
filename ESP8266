@@ -73,7 +73,5 @@ void user_init(void)
 	//获取sdk版本号并通过串口打印出来
     os_printf("SDK version:%s\n", system_get_sdk_version());
 
-    //设置WIFI模式为 station 模式
-    wifi_set_opmode(STATION_MODE);
 
 }
